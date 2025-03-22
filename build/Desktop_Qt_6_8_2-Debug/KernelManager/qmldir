@@ -1,0 +1,9 @@
+module KernelManager
+typeinfo appKernelManager.qmltypes
+prefer :/qt/qml/KernelManager/
+Main 1.0 Main.qml
+CurrentKernel 1.0 ui/CurrentKernel.qml
+InstalledKernels 1.0 ui/InstalledKernels.qml
+AvailableKernels 1.0 ui/AvailableKernels.qml
+Controls 1.0 ui/Controls.qml
+

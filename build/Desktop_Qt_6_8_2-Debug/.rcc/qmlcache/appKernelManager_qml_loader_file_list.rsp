@@ -1,0 +1,9 @@
+--resource
+/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qmake_KernelManager.qrc
+--resource
+/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/appKernelManager_raw_qml_0.qrc
+/qt/qml/KernelManager/Main.qml
+/qt/qml/KernelManager/ui/CurrentKernel.qml
+/qt/qml/KernelManager/ui/InstalledKernels.qml
+/qt/qml/KernelManager/ui/AvailableKernels.qml
+/qt/qml/KernelManager/ui/Controls.qml

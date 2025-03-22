@@ -1,0 +1,1 @@
+/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/appKernelManager_autogen/include/../EWIEGA46WW/moc_kernelmanager.cpp.json

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/KernelManager">/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/KernelManager</file>
+
+  </qresource>
+</RCC>

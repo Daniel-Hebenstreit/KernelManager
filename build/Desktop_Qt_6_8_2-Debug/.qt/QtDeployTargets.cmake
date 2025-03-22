@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appKernelManager_FILE /home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/appKernelManager)
+set(__QT_DEPLOY_TARGET_appKernelManager_TYPE EXECUTABLE)

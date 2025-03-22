@@ -1,0 +1,46 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "KernelManager",
+                "lineNumber": 11,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "currentKernel",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "listInstalledKernels",
+                        "returnType": "QStringList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "listArchKernels",
+                        "returnType": "QStringList"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "KernelManager",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "kernelmanager.h",
+        "outputRevision": 68
+    }
+]

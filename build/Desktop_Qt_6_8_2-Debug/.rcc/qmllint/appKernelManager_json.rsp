@@ -1,0 +1,16 @@
+--bare
+-I
+/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug
+-I
+/home/hebi/QtInstall/6.8.2/gcc_64/qml
+--resource
+/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qmake_KernelManager.qrc
+--resource
+/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/appKernelManager_raw_qml_0.qrc
+/home/hebi/Qt Projects/KernelManager/Main.qml
+/home/hebi/Qt Projects/KernelManager/ui/CurrentKernel.qml
+/home/hebi/Qt Projects/KernelManager/ui/InstalledKernels.qml
+/home/hebi/Qt Projects/KernelManager/ui/AvailableKernels.qml
+/home/hebi/Qt Projects/KernelManager/ui/Controls.qml
+--json
+/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/appKernelManager_qmllint.json
