@@ -21,7 +21,7 @@ Item {
         }
 
         text: "Use"
-        enabled: false
+        enabled: root.selectedList === "installedKernels" ? true : false
     }
 
     Button {
@@ -32,7 +32,7 @@ Item {
         }
 
         text: "Install"
-        enabled: false
+        enabled: root.selectedList === "availableKernels" ? true : false
     }
 
     Button {
@@ -45,6 +45,6 @@ Item {
         }
 
         text: "Uninstall"
-        enabled: false
+        enabled: root.selectedList == "installedKernels" ? true : false
     }
 }

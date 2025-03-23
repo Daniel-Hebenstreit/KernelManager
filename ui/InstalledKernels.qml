@@ -22,11 +22,11 @@ Item {
         padding: 5
 
         background: Rectangle {
-            color: root.backgroundColor
+            color: root.backgroundColorLists
             implicitWidth: 150
             implicitHeight: 30
-            topLeftRadius: root.radius
-            topRightRadius: root.radius
+            topLeftRadius: root.labelRadius
+            topRightRadius: root.labelRadius
 
         }
     }
@@ -42,7 +42,7 @@ Item {
         }
 
         height: Math.max(Math.min(listInstalledKernels.count * root.elementHeight, root.height/4), 35)
-        color: root.backgroundColor
+        color: root.backgroundColorLists
     }
 
     ListView {
@@ -72,7 +72,7 @@ Item {
                 width: parent.width
                 height: root.elementHeight
                 color: (root.selectedList === "installedKernels" && root.currentIndex === index) ? root.highlightColor : (mouseArea.containsMouse ? root.highlightColor : root.elementColor)
-                radius: root.radius
+                radius: root.elementRadius
 
                 Text {
                     anchors.centerIn: parent

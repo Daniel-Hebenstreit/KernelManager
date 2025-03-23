@@ -1,8 +1,5 @@
 import QtQuick
-//import QtQuick.Controls
 import "ui"
-
-//import KernelManager
 
 Window {
     id: root
@@ -10,22 +7,33 @@ Window {
     width: 640
     height: 510
     visible: true
+    color: windowColor
     title: qsTr("Linux Kernel Manager")
 
-    color: "#686664"
-    property string textColor: "white"
-    property string backgroundColor: "#595854"
-    property string backgroundColorControls: "#2e2d2c"
+    // background upper window color
+    property string windowColor: "#2e2d2c"
+
+    // background lower window color
+    property string backgroundColorControls: "#1f1e1d"
+
+    // customize list background
+    property string backgroundColorLists: "#2e2d2c"//"#4c4b47"
     property bool labelFontBold: true
     property int labelFontSize: 17
     property int listFontSize: 16
-    property int radius: 5
+    property int labelRadius: 5
 
-    property int elementHeight: 25
-    property int elementSpacing: 4
+    // customize list elements
     property string elementColor: "#3f615e"
     property string highlightColor: "teal"
+    property int elementRadius: 0
+    property int elementHeight: 25
+    property int elementSpacing: 2
 
+    // label and list elements
+    property string textColor: "white"
+
+    // needed to select elements across different lists
     property string selectedList: ""
     property int currentIndex: -1
 
@@ -48,8 +56,8 @@ Window {
         Column {
             id: lists
 
-            width: parent.width - 18
-            height: parent.height - 35
+            width: parent.width
+            height: parent.height
             spacing: 15
 
             CurrentKernel {

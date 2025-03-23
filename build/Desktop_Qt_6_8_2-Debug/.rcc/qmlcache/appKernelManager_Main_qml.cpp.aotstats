@@ -5,75 +5,83 @@
                 "entries": [
                     {
                         "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 379,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 18,
-                        "durationMicroseconds": 247,
+                        "durationMicroseconds": 222,
                         "errorMessage": "",
                         "functionName": "top",
-                        "line": 41
+                        "line": 49
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 162,
+                        "durationMicroseconds": 198,
                         "errorMessage": "",
                         "functionName": "bottom",
-                        "line": 42
+                        "line": 50
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 159,
+                        "durationMicroseconds": 208,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 43
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 157,
-                        "errorMessage": "",
-                        "functionName": "right",
-                        "line": 44
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 281,
-                        "errorMessage": "",
-                        "functionName": "width",
                         "line": 51
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 21,
-                        "durationMicroseconds": 200,
+                        "column": 20,
+                        "durationMicroseconds": 227,
                         "errorMessage": "",
-                        "functionName": "height",
+                        "functionName": "right",
                         "line": 52
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 118,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 170,
+                        "durationMicroseconds": 111,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 161,
                         "errorMessage": "",
                         "functionName": "bottom",
-                        "line": 74
+                        "line": 82
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 157,
+                        "durationMicroseconds": 160,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 75
+                        "line": 83
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 156,
+                        "durationMicroseconds": 208,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 76
+                        "line": 84
                     }
                 ],
                 "filepath": "/home/hebi/Qt Projects/KernelManager/Main.qml"

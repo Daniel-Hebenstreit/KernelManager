@@ -22,11 +22,11 @@ Item {
         padding: 5
 
         background: Rectangle {
-            color: root.backgroundColor
+            color: root.backgroundColorLists
             implicitWidth: 150
             implicitHeight: 30
-            topLeftRadius: root.radius
-            topRightRadius: root.radius
+            topLeftRadius: root.labelRadius
+            topRightRadius: root.labelRadius
 
         }
     }
@@ -42,7 +42,7 @@ Item {
         }
 
         height: root.elementHeight + (2 * root.elementSpacing)
-        color: root.backgroundColor
+        color: root.backgroundColorLists
     }
 
     Rectangle {
@@ -53,7 +53,7 @@ Item {
 
         width: parent.width
         height: root.elementHeight
-        radius: root.radius
+        radius: root.elementRadius
         color: root.selectedList === "currentKernel" ? root.highlightColor : (mouseArea.containsMouse ? root.highlightColor : root.elementColor)
 
         Text {

@@ -1,158 +1,114 @@
 # ninja log v6
+618	700	1742410406639759519	appkernelmanager_qmltyperegistrations.cpp	794ff5f8bb24e40
+171	210	1742501471153586226	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_qmlcache_loader.cpp	1e6203e05627c73c
+182	198	1742753153837873889	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
+170	184	1742501471136919227	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_qmake_KernelManager.cpp	bdfd8afd1cade7ad
+18	36	1742753153677873315	.qt/appKernelManager_qml.txt	428437e25478cd8e
+64	4663	1742417825630125587	CMakeFiles/appKernelManager.dir/kernelmanager.cpp.o	28a1f5e12064344
+293	3136	1742753153934540903	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.o	91fedc4aa2439bb8
+187	335	1742752219496063854	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp	5478a6b9fa4efe05
+170	184	1742501471136919227	.qt/rcc/qrc_qmake_KernelManager.cpp	bdfd8afd1cade7ad
+183	329	1742752219492730491	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
+21	181	1742753153821207163	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
 298	310	1742500631330111888	meta_types/qt6appkernelmanager_debug_metatypes.json	8db5c9ed8c6aa278
 260	341	1742501499117477426	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_qmake_KernelManager.cpp.o	1cb074fe84df53b0
 289	298	1742500631330111888	meta_types/appKernelManager_json_file_list.txt.timestamp	cb7af44b69f2c733
-289	298	1742500631330111888	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/meta_types/appKernelManager_json_file_list.txt.timestamp	cb7af44b69f2c733
-254	3246	1742594925850841781	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp.o	bfd6db3090d51e96
-133	253	1742594925844175009	.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp	1e41a4d5518aa021
-158	260	1742595073689844291	.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-237	2977	1742592052581694989	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.o	e2ca0468c1a5f00f
-13	158	1742595073593176098	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-170	184	1742501471136919227	.qt/rcc/qrc_qmake_KernelManager.cpp	bdfd8afd1cade7ad
-126	236	1742592052575028219	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-289	298	1742500631330111888	meta_types/appKernelManager_json_file_list.txt	cb7af44b69f2c733
-255	3242	1742594925854175166	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp.o	f9cc6539dde97b21
+182	198	1742753153837873889	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
 135	277	1742589834971371213	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp	cfd706fe0c466644
-158	173	1742595073609843027	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
 237	289	1742500631266777280	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/appKernelManager_autogen/timestamp	2dbec2c4bd4c40ec
-618	700	1742410406639759519	KernelManager/appKernelManager.qmltypes	794ff5f8bb24e40
-171	210	1742501471153586226	.rcc/qmlcache/appKernelManager_qmlcache_loader.cpp	1e6203e05627c73c
-261	8789	1742501499117477426	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_qmlcache_loader.cpp.o	37a0aa29af17e0fa
-618	700	1742410406639759519	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/KernelManager/appKernelManager.qmltypes	794ff5f8bb24e40
+184	324	1742752219486063765	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp	1e41a4d5518aa021
 237	289	1742500631266777280	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/appKernelManager_autogen/mocs_compilation.cpp	2dbec2c4bd4c40ec
-3312	3874	1742595076749892599	appKernelManager	e82052ef813e2846
-133	253	1742594925844175009	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp	1e41a4d5518aa021
-134	244	1742594925834174850	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp	5478a6b9fa4efe05
-260	3311	1742595073696511062	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.o	91fedc4aa2439bb8
-64	4663	1742417825630125587	CMakeFiles/appKernelManager.dir/kernelmanager.cpp.o	28a1f5e12064344
-12	18	1742595073456507273	.qt/appKernelManager_qml.txt	428437e25478cd8e
-158	173	1742595073609843027	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-170	184	1742501471136919227	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_qmake_KernelManager.cpp	bdfd8afd1cade7ad
-134	244	1742594925834174850	.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp.aotstats	5478a6b9fa4efe05
-171	210	1742501471153586226	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_qmlcache_loader.cpp	1e6203e05627c73c
-618	700	1742410406639759519	appkernelmanager_qmltyperegistrations.cpp	794ff5f8bb24e40
-135	277	1742589834971371213	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.aotstats	cfd706fe0c466644
+3136	3699	1742753156777884437	appKernelManager	e82052ef813e2846
+618	700	1742410406639759519	KernelManager/appKernelManager.qmltypes	794ff5f8bb24e40
+618	700	1742410406639759519	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/KernelManager/appKernelManager.qmltypes	794ff5f8bb24e40
 298	310	1742500631330111888	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/meta_types/qt6appkernelmanager_debug_metatypes.json.gen	8db5c9ed8c6aa278
-158	260	1742595073689844291	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
+182	292	1742753153927874212	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
 135	277	1742589834971371213	.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp	cfd706fe0c466644
-13	158	1742595073593176098	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-158	260	1742595073689844291	.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
-12	18	1742595073456507273	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
-237	289	1742500631266777280	appKernelManager_autogen/timestamp	2dbec2c4bd4c40ec
-158	260	1742595073689844291	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-819	8705	1742410406776428340	CMakeFiles/appKernelManager.dir/appkernelmanager_qmltyperegistrations.cpp.o	ed050e84b5a68cb1
-237	289	1742500631266777280	appKernelManager_autogen/mocs_compilation.cpp	2dbec2c4bd4c40ec
-134	244	1742594925834174850	.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp	5478a6b9fa4efe05
-819	7634	1742410406776428340	CMakeFiles/appKernelManager.dir/main.cpp.o	e459781c7bad28ef
-283	3475	1742589834984704663	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.o	e455225dc0af08e9
-298	310	1742500631330111888	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/meta_types/qt6appkernelmanager_debug_metatypes.json	8db5c9ed8c6aa278
+21	181	1742753153821207163	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
 819	7985	1742410406773094954	CMakeFiles/appKernelManager.dir/appKernelManager_autogen/mocs_compilation.cpp.o	483113b70e9b42de
+819	8705	1742410406776428340	CMakeFiles/appKernelManager.dir/appkernelmanager_qmltyperegistrations.cpp.o	ed050e84b5a68cb1
+298	310	1742500631330111888	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/meta_types/qt6appkernelmanager_debug_metatypes.json	8db5c9ed8c6aa278
+283	3475	1742589834984704663	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.o	e455225dc0af08e9
+237	289	1742500631266777280	appKernelManager_autogen/mocs_compilation.cpp	2dbec2c4bd4c40ec
+187	335	1742752219496063854	.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp	5478a6b9fa4efe05
+819	7634	1742410406776428340	CMakeFiles/appKernelManager.dir/main.cpp.o	e459781c7bad28ef
+135	277	1742589834971371213	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.aotstats	cfd706fe0c466644
+182	292	1742753153927874212	.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
+18	36	1742753153677873315	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
+237	289	1742500631266777280	appKernelManager_autogen/timestamp	2dbec2c4bd4c40ec
+182	292	1742753153927874212	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
 289	298	1742500631330111888	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/meta_types/appKernelManager_json_file_list.txt	cb7af44b69f2c733
-135	277	1742589834971371213	.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.aotstats	cfd706fe0c466644
-261	303	1742595073696511062	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
-134	244	1742594925834174850	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp.aotstats	5478a6b9fa4efe05
-298	310	1742500631330111888	meta_types/qt6appkernelmanager_debug_metatypes.json.gen	8db5c9ed8c6aa278
-126	236	1742592052575028219	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-133	253	1742594925844175009	.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp.aotstats	1e41a4d5518aa021
-133	253	1742594925844175009	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp.aotstats	1e41a4d5518aa021
-126	236	1742592052575028219	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-126	236	1742592052575028219	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-9	16	1742125002061195998	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_res.txt	a0226148699b0801
+183	329	1742752219492730491	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
 618	700	1742410406639759519	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/appkernelmanager_qmltyperegistrations.cpp	794ff5f8bb24e40
 9	16	1742125002061195998	.qt/appKernelManager_res.txt	a0226148699b0801
-18	37	1742595163561262484	.qt/appKernelManager_qml.txt	428437e25478cd8e
-18	37	1742595163561262484	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
-21	170	1742595163694597921	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-21	170	1742595163694597921	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-171	186	1742595163711264851	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-171	186	1742595163711264851	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-170	278	1742595163797932884	.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
-170	278	1742595163797932884	.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-170	278	1742595163797932884	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
-170	278	1742595163797932884	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-279	321	1742595163804599656	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
-279	3182	1742595163804599656	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.o	91fedc4aa2439bb8
-3182	3793	1742595166707978786	appKernelManager	e82052ef813e2846
-11	18	1742595512046445320	.qt/appKernelManager_qml.txt	428437e25478cd8e
-11	18	1742595512046445320	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
-12	153	1742595512179779951	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-12	153	1742595512179779951	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-154	175	1742595512203113512	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-154	175	1742595512203113512	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-154	263	1742595512283114291	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-154	263	1742595512283114291	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-154	263	1742595512283114291	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-154	263	1742595512283114291	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-153	284	1742595512306447852	.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
-153	284	1742595512306447852	.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-153	284	1742595512306447852	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
-153	284	1742595512306447852	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-285	352	1742595512313114583	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
-284	3705	1742595512313114583	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.o	e2ca0468c1a5f00f
-284	3739	1742595512313114583	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.o	91fedc4aa2439bb8
-3739	4313	1742595515769814970	appKernelManager	e82052ef813e2846
-16	24	1742595725182057291	.qt/appKernelManager_qml.txt	428437e25478cd8e
-16	24	1742595725182057291	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
-16	131	1742595725288725187	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-16	131	1742595725288725187	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-132	144	1742595725302058675	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-132	144	1742595725302058675	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-131	254	1742595725405393199	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-131	254	1742595725405393199	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-131	254	1742595725405393199	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-131	254	1742595725405393199	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-255	309	1742595725415393314	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
-255	3199	1742595725415393314	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.o	e2ca0468c1a5f00f
-3200	3764	1742595728358760599	appKernelManager	e82052ef813e2846
-13	20	1742595766455871855	.qt/appKernelManager_qml.txt	428437e25478cd8e
-13	20	1742595766455871855	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
-13	131	1742595766565873151	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-13	131	1742595766565873151	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-132	146	1742595766582540015	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-132	146	1742595766582540015	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-131	229	1742595766659207585	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-131	229	1742595766659207585	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-131	229	1742595766659207585	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-131	229	1742595766659207585	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-229	280	1742595766665874331	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
-229	3067	1742595766665874331	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.o	e2ca0468c1a5f00f
-3067	3651	1742595769502574476	appKernelManager	e82052ef813e2846
-14	22	1742646056904206288	.qt/appKernelManager_qml.txt	428437e25478cd8e
-14	22	1742646056904206288	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
-14	145	1742646057020876138	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-14	145	1742646057020876138	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-11	24	1742646061571000275	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-11	24	1742646061571000275	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-10	90	1742646061634335337	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-10	90	1742646061634335337	.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-10	90	1742646061634335337	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
-10	90	1742646061634335337	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
-91	230	1742646061641002185	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
-90	2860	1742646061641002185	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.o	e2ca0468c1a5f00f
-2860	3567	1742646064407744352	appKernelManager	e82052ef813e2846
-13	19	1742646172174027657	.qt/appKernelManager_qml.txt	428437e25478cd8e
-13	19	1742646172174027657	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
-13	156	1742646172310698076	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-13	156	1742646172310698076	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-157	174	1742646172327365200	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-157	174	1742646172327365200	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-156	262	1742646172410700821	.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
-156	262	1742646172410700821	.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-156	262	1742646172410700821	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
-156	262	1742646172410700821	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-262	331	1742646172417367671	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
-262	3128	1742646172417367671	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.o	91fedc4aa2439bb8
-3128	3696	1742646175284113039	appKernelManager	e82052ef813e2846
-12	18	1742646202391524432	.qt/appKernelManager_qml.txt	428437e25478cd8e
-12	18	1742646202391524432	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
-12	117	1742646202488193756	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-12	117	1742646202488193756	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
-118	128	1742646202501527456	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-118	128	1742646202501527456	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
-117	207	1742646202574862805	.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
-117	207	1742646202574862805	.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-117	207	1742646202574862805	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
-117	207	1742646202574862805	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
-208	249	1742646202581529656	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
-207	3031	1742646202581529656	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.o	91fedc4aa2439bb8
-3031	3590	1742646205404940612	appKernelManager	e82052ef813e2846
+183	329	1742752219492730491	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.aotstats	62629fa108f229b6
+9	16	1742125002061195998	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_res.txt	a0226148699b0801
+135	277	1742589834971371213	.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.aotstats	cfd706fe0c466644
+298	310	1742500631330111888	meta_types/qt6appkernelmanager_debug_metatypes.json.gen	8db5c9ed8c6aa278
+183	329	1742752219492730491	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp	62629fa108f229b6
+293	336	1742753153934540903	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
+187	335	1742752219496063854	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp.aotstats	5478a6b9fa4efe05
+184	324	1742752219486063765	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp.aotstats	1e41a4d5518aa021
+184	324	1742752219486063765	.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp.aotstats	1e41a4d5518aa021
+371	5275	1742752219542730940	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp.o	f9cc6539dde97b21
+289	298	1742500631330111888	meta_types/appKernelManager_json_file_list.txt	cb7af44b69f2c733
+369	5014	1742752219539397576	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/CurrentKernel_qml.cpp.o	e2ca0468c1a5f00f
+184	324	1742752219486063765	.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp	1e41a4d5518aa021
+182	292	1742753153927874212	.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
+261	8789	1742501499117477426	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_qmlcache_loader.cpp.o	37a0aa29af17e0fa
+171	210	1742501471153586226	.rcc/qmlcache/appKernelManager_qmlcache_loader.cpp	1e6203e05627c73c
+289	298	1742500631330111888	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/meta_types/appKernelManager_json_file_list.txt.timestamp	cb7af44b69f2c733
+370	5309	1742752219539397576	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/InstalledKernels_qml.cpp.o	bfd6db3090d51e96
+187	335	1742752219496063854	.rcc/qmlcache/appKernelManager_ui/AvailableKernels_qml.cpp.aotstats	5478a6b9fa4efe05
+15	23	1742753261971584489	.qt/appKernelManager_qml.txt	428437e25478cd8e
+15	23	1742753261971584489	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
+16	158	1742753262104918275	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
+16	158	1742753262104918275	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
+159	171	1742753262121584998	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
+159	171	1742753262121584998	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
+158	269	1742753262211585304	.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
+158	269	1742753262211585304	.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
+158	269	1742753262211585304	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
+158	269	1742753262211585304	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
+269	315	1742753262218251993	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
+269	2981	1742753262218251993	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.o	91fedc4aa2439bb8
+2981	3543	1742753264931594528	appKernelManager	e82052ef813e2846
+14	19	1742753575049247745	.qt/appKernelManager_qml.txt	428437e25478cd8e
+14	19	1742753575049247745	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
+14	172	1742753575199248197	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
+14	172	1742753575199248197	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
+173	187	1742753575215914914	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
+173	187	1742753575215914914	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
+172	299	1742753575322581902	.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
+172	299	1742753575322581902	.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
+172	299	1742753575322581902	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp	a235c64396c66c8e
+172	299	1742753575322581902	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.aotstats	a235c64396c66c8e
+300	343	1742753575329248588	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
+300	3160	1742753575329248588	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_Main_qml.cpp.o	91fedc4aa2439bb8
+3160	3707	1742753578189257197	appKernelManager	e82052ef813e2846
+12	18	1742754144540860314	.qt/appKernelManager_qml.txt	428437e25478cd8e
+12	18	1742754144540860314	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
+13	143	1742754144664193981	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
+13	143	1742754144664193981	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
+144	163	1742754144687527378	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
+144	163	1742754144687527378	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
+143	258	1742754144777527621	.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp	cfd706fe0c466644
+143	258	1742754144777527621	.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.aotstats	cfd706fe0c466644
+143	258	1742754144777527621	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp	cfd706fe0c466644
+143	258	1742754144777527621	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.aotstats	cfd706fe0c466644
+258	332	1742754144784194306	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
+258	3113	1742754144784194306	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.o	e455225dc0af08e9
+3113	3732	1742754147637535363	appKernelManager	e82052ef813e2846
+15	21	1742754250991146946	.qt/appKernelManager_qml.txt	428437e25478cd8e
+15	21	1742754250991146946	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/appKernelManager_qml.txt	428437e25478cd8e
+15	158	1742754251124480637	.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
+15	158	1742754251124480637	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/qml_imports/appKernelManager_build.cmake	a1b2584e30a3a3f
+159	174	1742754251141147349	.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
+159	174	1742754251141147349	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp	a5ca0c106c6b9ad7
+158	244	1742754251207814194	.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp	cfd706fe0c466644
+158	244	1742754251207814194	.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.aotstats	cfd706fe0c466644
+158	244	1742754251207814194	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp	cfd706fe0c466644
+158	244	1742754251207814194	/home/hebi/Qt Projects/KernelManager/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.aotstats	cfd706fe0c466644
+245	297	1742754251214480878	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.qt/rcc/qrc_appKernelManager_raw_qml_0.cpp.o	83f6224310956c59
+245	3025	1742754251214480878	CMakeFiles/appKernelManager.dir/build/Desktop_Qt_6_8_2-Debug/.rcc/qmlcache/appKernelManager_ui/Controls_qml.cpp.o	e455225dc0af08e9
+3025	3581	1742754253994488325	appKernelManager	e82052ef813e2846
