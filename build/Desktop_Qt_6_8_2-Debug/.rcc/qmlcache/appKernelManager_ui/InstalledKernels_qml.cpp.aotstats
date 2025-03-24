@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 13,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 65,
                         "errorMessage": "Cannot retrieve a non-object type by ID: labelInstalledKernels",
                         "functionName": "height",
                         "line": 7
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 263,
+                        "durationMicroseconds": 195,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 8
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 219,
+                        "durationMicroseconds": 146,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
                         "line": 25
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 198,
+                        "durationMicroseconds": 122,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "topLeftRadius",
                         "line": 28
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 194,
+                        "durationMicroseconds": 157,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "topRightRadius",
                         "line": 29
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 297,
+                        "durationMicroseconds": 188,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "height",
                         "line": 44
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 196,
+                        "durationMicroseconds": 118,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
                         "line": 45
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 18,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 62,
                         "errorMessage": "Cannot retrieve a non-object type by ID: labelInstalledKernels",
                         "functionName": "top",
                         "line": 39
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 312,
+                        "durationMicroseconds": 208,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 40
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 248,
+                        "durationMicroseconds": 164,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 41
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 733,
+                        "durationMicroseconds": 459,
                         "errorMessage": "Cannot access value for name manager",
                         "functionName": "model",
                         "line": 56
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 165,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "delegate",
                         "line": 57
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 139,
+                        "durationMicroseconds": 380,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 51
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 174,
+                        "durationMicroseconds": 121,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 66
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 188,
+                        "durationMicroseconds": 114,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "height",
                         "line": 67
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 181,
+                        "durationMicroseconds": 128,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 72
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 207,
+                        "durationMicroseconds": 269,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "height",
                         "line": 73
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 202,
+                        "durationMicroseconds": 164,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
                         "line": 74
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 197,
+                        "durationMicroseconds": 138,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "radius",
                         "line": 75
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 257,
+                        "durationMicroseconds": 194,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 70
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 334,
+                        "durationMicroseconds": 213,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
                         "line": 80
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 419,
+                        "durationMicroseconds": 325,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "text",
                         "line": 81
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 135,
+                        "durationMicroseconds": 83,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 78
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 328,
+                        "durationMicroseconds": 203,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "pixelSize",
                         "line": 79
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 267,
+                        "durationMicroseconds": 164,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "onClicked",
                         "line": 89
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 124,
+                        "durationMicroseconds": 83,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 86

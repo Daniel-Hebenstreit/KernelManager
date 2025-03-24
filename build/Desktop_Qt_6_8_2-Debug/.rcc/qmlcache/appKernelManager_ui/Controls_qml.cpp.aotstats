@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 143,
+                        "durationMicroseconds": 229,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 7
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 217,
+                        "durationMicroseconds": 254,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "color",
                         "line": 11
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 112,
+                        "durationMicroseconds": 144,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 10

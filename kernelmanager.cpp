@@ -4,11 +4,14 @@ KernelManager::KernelManager(QObject *parent)
     : QObject{parent}
 {}
 
+// get the currently used kernel
 QString KernelManager::currentKernel()
 {
     return QSysInfo::kernelVersion();
 }
 
+
+// get a list of all installed kernels
 QStringList KernelManager::listInstalledKernels()
 {
     // create instance
@@ -24,6 +27,8 @@ QStringList KernelManager::listInstalledKernels()
     return list;
 }
 
+
+// get a list of all official and supported kernels (only arch-based distros or distros using pacman)
 QStringList KernelManager::listArchKernels()
 {
     QProcess process;
@@ -49,4 +54,34 @@ QStringList KernelManager::listArchKernels()
     }
 
     return filteredList;
+}
+
+
+//
+// QString KernelManager::selectedKernel(const QString &kernel)
+// {
+//     qDebug() << "Selected Kernel:" << kernel;
+//     return kernel;
+// }
+
+// QString KernelManager::installKernel(QString kernel)
+// {
+//     QProcess process;
+//     process.start("bin/bash", )
+// }
+
+QString KernelManager::selectedKernel() const
+{
+    //qDebug() << "Selected Kernel:" << selectedKernel;
+    return m_selectedKernel;
+}
+
+void KernelManager::setSelectedKernel(const QString &newSelectedKernel)
+{
+    if (m_selectedKernel == newSelectedKernel)
+        return;
+    m_selectedKernel = newSelectedKernel;
+    emit selectedKernelChanged();
+    qDebug() << "Selected Kernel: " << m_selectedKernel;
+
 }

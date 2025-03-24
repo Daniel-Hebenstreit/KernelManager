@@ -13,25 +13,50 @@
                 "methods": [
                     {
                         "access": "public",
-                        "index": 0,
+                        "index": 1,
                         "name": "currentKernel",
                         "returnType": "QString"
                     },
                     {
                         "access": "public",
-                        "index": 1,
+                        "index": 2,
                         "name": "listInstalledKernels",
                         "returnType": "QStringList"
                     },
                     {
                         "access": "public",
-                        "index": 2,
+                        "index": 3,
                         "name": "listArchKernels",
                         "returnType": "QStringList"
                     }
                 ],
                 "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "selectedKernel",
+                        "notify": "selectedKernelChanged",
+                        "read": "selectedKernel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setSelectedKernel"
+                    }
+                ],
                 "qualifiedClassName": "KernelManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "selectedKernelChanged",
+                        "returnType": "void"
+                    }
+                ],
                 "superClasses": [
                     {
                         "access": "public",

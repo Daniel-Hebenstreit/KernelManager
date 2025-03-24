@@ -78,7 +78,7 @@ Item {
                     anchors.centerIn: parent
                     font.pixelSize: root.listFontSize
                     color: root.textColor
-                    text: modelData
+                    text: modelData //
                 }
 
                 MouseArea {
@@ -89,6 +89,9 @@ Item {
                     onClicked: {
                         root.selectedList = "installedKernels"
                         root.currentIndex = index
+
+                        manager.selectedKernel = modelData
+                        // log: setSelectedKernel: qDebug()
                     }
                 }
             }

@@ -87,6 +87,9 @@ Item {
                     onClicked: {
                         root.selectedList = "availableKernels"
                         root.currentIndex = index
+
+                        manager.selectedKernel = modelData
+                        // log: setSelectedKernel: qDebug()
                     }
                 }
             }

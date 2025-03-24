@@ -71,8 +71,6 @@ Item {
             onClicked: {
                 root.selectedList = "currentKernel"
                 root.currentIndex = -1
-
-
             }
         }
     }

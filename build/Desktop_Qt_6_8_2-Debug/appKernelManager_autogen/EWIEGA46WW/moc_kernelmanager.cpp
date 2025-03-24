@@ -40,10 +40,12 @@ static constexpr auto qt_meta_stringdata_ZN13KernelManagerE = QtMocHelpers::stri
     "KernelManager",
     "QML.Element",
     "auto",
-    "currentKernel",
+    "selectedKernelChanged",
     "",
+    "currentKernel",
     "listInstalledKernels",
-    "listArchKernels"
+    "listArchKernels",
+    "selectedKernel"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -55,25 +57,34 @@ Q_CONSTINIT static const uint qt_meta_data_ZN13KernelManagerE[] = {
       12,       // revision
        0,       // classname
        1,   14, // classinfo
-       3,   16, // methods
-       0,    0, // properties
+       4,   16, // methods
+       1,   44, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
 
  // classinfo: key, value
        1,    2,
 
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       3,    0,   40,    4, 0x06,    2 /* Public */,
+
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,   34,    4, 0x02,    1 /* Public */,
-       5,    0,   35,    4, 0x02,    2 /* Public */,
-       6,    0,   36,    4, 0x02,    3 /* Public */,
+       5,    0,   41,    4, 0x02,    3 /* Public */,
+       6,    0,   42,    4, 0x02,    4 /* Public */,
+       7,    0,   43,    4, 0x02,    5 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
 
  // methods: parameters
     QMetaType::QString,
     QMetaType::QStringList,
     QMetaType::QStringList,
+
+ // properties: name, type, flags, notifyId, revision
+       8, QMetaType::QString, 0x00015903, uint(0), 0,
 
        0        // eod
 };
@@ -85,8 +96,12 @@ Q_CONSTINIT const QMetaObject KernelManager::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_metaTypeArray<
+        // property 'selectedKernel'
+        QString,
         // Q_OBJECT / Q_GADGET
         KernelManager,
+        // method 'selectedKernelChanged'
+        void,
         // method 'currentKernel'
         QString,
         // method 'listInstalledKernels'
@@ -102,13 +117,38 @@ void KernelManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
     auto *_t = static_cast<KernelManager *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: { QString _r = _t->currentKernel();
+        case 0: _t->selectedKernelChanged(); break;
+        case 1: { QString _r = _t->currentKernel();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 1: { QStringList _r = _t->listInstalledKernels();
+        case 2: { QStringList _r = _t->listInstalledKernels();
             if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
-        case 2: { QStringList _r = _t->listArchKernels();
+        case 3: { QStringList _r = _t->listArchKernels();
             if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
         default: ;
+        }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _q_method_type = void (KernelManager::*)();
+            if (_q_method_type _q_method = &KernelManager::selectedKernelChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+    if (_c == QMetaObject::ReadProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QString*>(_v) = _t->selectedKernel(); break;
+        default: break;
+        }
+    }
+    if (_c == QMetaObject::WriteProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setSelectedKernel(*reinterpret_cast< QString*>(_v)); break;
+        default: break;
         }
     }
 }
@@ -132,15 +172,27 @@ int KernelManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 4;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
+        _id -= 4;
+    }
+    if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
+            || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
     }
     return _id;
+}
+
+// SIGNAL 0
+void KernelManager::selectedKernelChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP

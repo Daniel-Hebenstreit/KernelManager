@@ -13,6 +13,16 @@ Module {
         prototype: "QObject"
         exports: ["KernelManager/KernelManager 1.0"]
         exportMetaObjectRevisions: [256]
+        Property {
+            name: "selectedKernel"
+            type: "QString"
+            read: "selectedKernel"
+            write: "setSelectedKernel"
+            notify: "selectedKernelChanged"
+            index: 0
+            isFinal: true
+        }
+        Signal { name: "selectedKernelChanged" }
         Method { name: "currentKernel"; type: "QString" }
         Method { name: "listInstalledKernels"; type: "QStringList" }
         Method { name: "listArchKernels"; type: "QStringList" }
