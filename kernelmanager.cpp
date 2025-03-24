@@ -1,4 +1,5 @@
 #include "kernelmanager.h"
+#include <QFile>
 
 KernelManager::KernelManager(QObject *parent)
     : QObject{parent}
@@ -33,55 +34,93 @@ QStringList KernelManager::listArchKernels()
 {
     QProcess process;
 
-    process.start("/bin/bash", QStringList() << "-c" << "pacman -Ss ^linux$");
+    //process.start("/bin/bash", QStringList() << "-c" << "pacman -Ss ^linux$");
+    // get list directly from arch linux archive
+
+    process.start("/bin/bash", QStringList() << "-c"
+                                             << "curl -s https://archive.archlinux.org/packages/l/linux/ | "
+                                                "grep -o 'linux-[0-9].*-x86_64.pkg.tar.zst' | "
+                                                "sort -V | uniq | sed 's/\">.*//' | grep -v '.sig'");
+
     process.waitForFinished();
     QString output = process.readAllStandardOutput();
     QStringList list = output.split("\n", Qt::SkipEmptyParts);
+    //qDebug() << "List: " << list;
 
-
-    // Format list
-    QStringList filteredList;
-
-    // Remove prefix 'core/linuxXYZ-rt '
-    static const QRegularExpression regex("^core/linux[0-9]+(-rt)?\\s+|\\s*\\[[^\\]]+\\]$");
-
-    // Remove descriptions (second line in results, e.g. 'The Linux54 kernel and modules')
-    for (QString &line : list) {
-        if (!line.startsWith(" ")) {
-            line.remove(regex);
-            filteredList.append(line);
-        }
-    }
-
-    return filteredList;
+    return list;
 }
 
 
-//
-// QString KernelManager::selectedKernel(const QString &kernel)
-// {
-//     qDebug() << "Selected Kernel:" << kernel;
-//     return kernel;
-// }
-
-// QString KernelManager::installKernel(QString kernel)
-// {
-//     QProcess process;
-//     process.start("bin/bash", )
-// }
-
+// Get selected kernel
 QString KernelManager::selectedKernel() const
 {
-    //qDebug() << "Selected Kernel:" << selectedKernel;
     return m_selectedKernel;
 }
 
+
+// set selected kernel
 void KernelManager::setSelectedKernel(const QString &newSelectedKernel)
 {
     if (m_selectedKernel == newSelectedKernel)
         return;
     m_selectedKernel = newSelectedKernel;
     emit selectedKernelChanged();
-    qDebug() << "Selected Kernel: " << m_selectedKernel;
 
+    qDebug() << "Selected Kernel: " << m_selectedKernel;
+}
+
+
+// install kernel from Arch Linux Archive
+QString KernelManager::installKernel(QString kernel)
+{
+    // 1. create URL and download kernel
+    QString url = "https://archive.archlinux.org/packages/l/linux/" + m_selectedKernel;
+    QString filePath = "/tmp/" + m_selectedKernel;
+    QProcess curlProcess;
+    curlProcess.start("curl", QStringList() << "-o" << filePath << url);
+    curlProcess.waitForFinished();
+
+    qDebug() << "filepath: " << filePath;
+
+    // check if download was successfull
+    if (!QFile::exists(filePath)) {
+        return "Download failed. No file found.";
+    }
+
+    // log terminal output
+    QString curlOutput = curlProcess.readAllStandardOutput();
+    QString curlError = curlProcess.readAllStandardError();
+
+    qDebug() << "Curl Output: " << curlOutput;
+    qDebug() << "Curl Error: " << curlError;
+
+    if (curlProcess.exitCode() != 0) {
+        return "Download error: " + curlError;
+    }
+
+
+    // 2. install downloaded kernel
+    QProcess installProcess;
+
+    // create bash command for pacman package manager
+    // sudo doesn't work with QProcess -> use pkexec
+    QString bashCommand = "pkexec pacman -U --noconfirm " + filePath;
+    //QString bashCommand = "pkexec bash -c 'yes | pacman -U " + filePath + "'";
+
+
+    installProcess.start("/bin/bash", QStringList() << "-c" << bashCommand);
+    installProcess.waitForFinished(-1);
+
+    // log terminal output
+    QString installOutput = installProcess.readAllStandardOutput();
+    QString installError = installProcess.readAllStandardError();
+
+    qDebug() << "Output: " << installOutput;
+    qDebug() << "Error: " << installError;
+
+    if (installProcess.exitCode()!= 0) {
+        return "Error while installing kernel: " + installError;
+    }
+
+    return "Kernel " + kernel + " was successfull installed";
 }

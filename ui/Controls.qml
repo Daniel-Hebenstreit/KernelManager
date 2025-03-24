@@ -33,6 +33,10 @@ Item {
 
         text: "Install"
         enabled: root.selectedList === "availableKernels" ? true : false
+
+        onClicked: {
+            manager.installKernel(manager.selectedKernel)
+        }
     }
 
     Button {

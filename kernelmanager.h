@@ -22,8 +22,7 @@ public:
     Q_INVOKABLE QStringList listInstalledKernels();
     Q_INVOKABLE QStringList listArchKernels();
     //Q_INVOKABLE QStringList listManjaroKernels();
-    //Q_INVOKABLE QString selectedKernel(const QString &kernel);
-    //Q_INVOKABLE QString installKernel(QString kernel);
+    Q_INVOKABLE QString installKernel(QString kernel);
 
 
     QString selectedKernel() const;
