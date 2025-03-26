@@ -22,6 +22,7 @@ qt_add_qml_module(appKernelManager
         QML_FILES ui/InstalledKernels.qml
         QML_FILES ui/AvailableKernels.qml
         QML_FILES ui/Controls.qml
+        QML_FILES ui/KernelList.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -6,9 +6,11 @@ KernelManager::KernelManager(QObject *parent)
 {}
 
 // get the currently used kernel
-QString KernelManager::currentKernel()
+QStringList KernelManager::currentKernel()
 {
-    return QSysInfo::kernelVersion();
+    QString kernelString = QSysInfo::kernelVersion();
+    QStringList kernelList = {kernelString};
+    return kernelList;
 }
 
 

@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.Layouts
 import "ui"
 
 Window {
@@ -53,23 +54,49 @@ Window {
             margins: 10
         }
 
-        Column {
+        ColumnLayout {
             id: lists
 
             width: parent.width
             height: parent.height
             spacing: 15
 
-            CurrentKernel {
+
+            // currently used kernel
+            KernelList {
                 id: currentKernel
+
+                property string labelText: "Currently Used Kernel"
+                property var dataModel: manager.currentKernel()
+
+                Layout.preferredHeight: 70
+                Layout.fillWidth: true
             }
 
-            InstalledKernels {
+
+            // list of installed kernels
+            KernelList {
                 id: installedKernels
+
+                property string labelText: "Installed Kernels"
+                property var dataModel: manager.listInstalledKernels()
+                property string list: "installedKernels"
+
+                Layout.preferredHeight: 110
+                Layout.fillWidth: true
             }
 
-            AvailableKernels {
-                id: availableKernels
+
+            // list of available kernels from arch linux archive
+            KernelList {
+                id: archArchiveKernels
+
+                property string labelText: "Arch Archive Kernels"
+                property var dataModel: manager.listArchKernels()
+                property string list: "archArchive"
+
+                Layout.fillHeight: true
+                Layout.fillWidth: true
             }
         }
     }

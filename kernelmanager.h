@@ -18,7 +18,7 @@ class KernelManager : public QObject
 public:
     explicit KernelManager(QObject *parent = nullptr);
 
-    Q_INVOKABLE static QString currentKernel();
+    Q_INVOKABLE static QStringList currentKernel();
     Q_INVOKABLE QStringList listInstalledKernels();
     Q_INVOKABLE QStringList listArchKernels();
     //Q_INVOKABLE QStringList listManjaroKernels();
