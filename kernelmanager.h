@@ -20,7 +20,7 @@ public:
 
     Q_INVOKABLE static QStringList currentKernel();
     Q_INVOKABLE QStringList listInstalledKernels();
-    Q_INVOKABLE QStringList listArchKernels();
+    Q_INVOKABLE QStringList listArchArchiveKernels();
     //Q_INVOKABLE QStringList listManjaroKernels();
     Q_INVOKABLE QString installKernel(QString kernel);
 

@@ -32,7 +32,7 @@ QStringList KernelManager::listInstalledKernels()
 
 
 // get a list of all official and supported kernels (only arch-based distros or distros using pacman)
-QStringList KernelManager::listArchKernels()
+QStringList KernelManager::listArchArchiveKernels()
 {
     QProcess process;
 

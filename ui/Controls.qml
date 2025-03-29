@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Layouts
 
 Item {
     id: controls
@@ -11,44 +12,78 @@ Item {
         color: root.backgroundColorControls
     }
 
-    Button {
-        id: btnUse
+    RowLayout {
+        width: parent.width
 
-        anchors {
-            verticalCenter: parent.verticalCenter
-            left: parent.left
-            leftMargin: 25
+        anchors.verticalCenter: parent.verticalCenter
+
+        Button {
+            id: btnUse
+
+            Layout.fillWidth: true
+            Layout.alignment: Qt.AlignVCenter
+
+            text: "Use"
+            // active "uninstall" button === installed kernel === available for use
+            enabled: root.globalUninstallBtn === true ? true : false
         }
 
-        text: "Use"
-        enabled: root.selectedList === "installedKernels" ? true : false
-    }
+        // Item {
+        //     Layout.fillWidth: true
+        // }
 
-    Button {
-        id: btnInstall
+        Button {
+            id: btnInstall
 
-        anchors {
-            centerIn: parent
+            Layout.fillWidth: true
+
+            text: "Install"
+            enabled: root.globalInstallBtn === true ? true : false
+
+            onClicked: {
+                manager.installKernel(manager.selectedKernel)
+            }
         }
 
-        text: "Install"
-        enabled: root.selectedList === "availableKernels" ? true : false
+        // Item {
+        //     Layout.fillWidth: true
+        // }
 
-        onClicked: {
-            manager.installKernel(manager.selectedKernel)
-        }
-    }
+        Button {
+            id: btnUninstall
 
-    Button {
-        id: btnUninstall
+            Layout.fillWidth: true
 
-        anchors {
-            verticalCenter: parent.verticalCenter
-            right: parent.right
-            rightMargin: 25
+            text: "Uninstall"
+            enabled: root.globalUninstallBtn === true ? true : false
         }
 
-        text: "Uninstall"
-        enabled: root.selectedList == "installedKernels" ? true : false
+        // Item {
+        //     Layout.fillWidth: true
+        // }
+
+        ComboBox {
+            id: comboBox
+
+            Layout.fillWidth: true
+
+            textRole: "version"
+
+            model: ListModel {
+                id: modelId
+
+                ListElement {
+                    version: "Latest Arch Kernels"
+                }
+
+                ListElement {
+                    version: "Arch Linux Archive"
+                }
+
+                ListElement {
+                    version: "Supported Manjaro Kernels"
+                }
+            }
+        }
     }
 }

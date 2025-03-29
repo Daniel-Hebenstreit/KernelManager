@@ -8,6 +8,9 @@ import QtQuick.Controls
 Item {
     id: kernelList
 
+    property bool localeInstallBtn: false
+    property bool localeUninstallBtn: false
+
     width: parent.width
 
     Label {
@@ -53,7 +56,7 @@ Item {
 
         clip: true
 
-        model: dataModel
+        model: dataModel // property
         delegate: delegateId
 
         ScrollBar.vertical: ScrollBar {}
@@ -63,6 +66,8 @@ Item {
         id: delegateId // single element of a list
 
         Rectangle {
+            id: rectId
+
             width: parent.width
             height: root.elementHeight
             color: (root.selectedList === list && root.currentIndex === index) ? root.highlightColor : (mouseArea.containsMouse ? root.highlightColor : root.elementColor)
@@ -72,23 +77,26 @@ Item {
                 anchors.centerIn: parentChanged
                 font.pixelSize: root.listFontSize
                 color: root.textColor
-                text: modelData
-
-                MouseArea {
-                    id: mouseArea
-                    anchors.fill: parent
-                    hoverEnabled: true
-
-                    onClicked: {
-                        root.selectedList = list
-                        root.currentIndex = index
-
-                        manager.selectedKernel = modelData
-                        // log: setSelectedKernel: qDebug()
-                    }
-                }
+                text: modelData // modelData autmatically uses model values; no model[index] required
             }
 
+            MouseArea {
+                id: mouseArea
+                anchors.fill: parent
+                hoverEnabled: true
+
+                onClicked: {
+                    root.globalInstallBtn = localeInstallBtn
+                    root.globalUninstallBtn = localeUninstallBtn
+
+                    root.selectedList = list
+                    root.currentIndex = index
+
+                    manager.selectedKernel = modelData
+                    // log: setSelectedKernel: qDebug()
+                }
+            }
         }
     }
 }
+

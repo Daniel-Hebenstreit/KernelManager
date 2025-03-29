@@ -38,6 +38,9 @@ Window {
     property string selectedList: ""
     property int currentIndex: -1
 
+    property bool globalInstallBtn: false
+    property bool globalUninstallBtn: false
+
 
     KernelManager {
         id: manager
@@ -82,6 +85,9 @@ Window {
                 property var dataModel: manager.listInstalledKernels()
                 property string list: "installedKernels"
 
+                localeInstallBtn: false
+                localeUninstallBtn: true
+
                 Layout.preferredHeight: 110
                 Layout.fillWidth: true
             }
@@ -92,8 +98,11 @@ Window {
                 id: archArchiveKernels
 
                 property string labelText: "Arch Archive Kernels"
-                property var dataModel: manager.listArchKernels()
+                property var dataModel: manager.listArchArchiveKernels()
                 property string list: "archArchive"
+
+                localeInstallBtn: true
+                localeUninstallBtn: false
 
                 Layout.fillHeight: true
                 Layout.fillWidth: true
