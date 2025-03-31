@@ -38,6 +38,7 @@ Window {
     property string selectedList: ""
     property int currentIndex: -1
 
+    // enable/disable buttons
     property bool globalInstallBtn: false
     property bool globalUninstallBtn: false
 

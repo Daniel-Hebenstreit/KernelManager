@@ -17,6 +17,10 @@ Item {
 
         anchors.verticalCenter: parent.verticalCenter
 
+        Item {
+            implicitWidth: 9
+        }
+
         Button {
             id: btnUse
 
@@ -42,6 +46,7 @@ Item {
 
             onClicked: {
                 manager.installKernel(manager.selectedKernel)
+                //manager.installKernel
             }
         }
 
@@ -56,6 +61,10 @@ Item {
 
             text: "Uninstall"
             enabled: root.globalUninstallBtn === true ? true : false
+
+            onClicked: {
+                manager.uninstallKernel(manager.selectedKernel)
+            }
         }
 
         // Item {
@@ -84,6 +93,10 @@ Item {
                     version: "Supported Manjaro Kernels"
                 }
             }
+        }
+
+        Item {
+            implicitWidth: 9
         }
     }
 }

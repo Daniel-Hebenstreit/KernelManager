@@ -75,6 +75,8 @@ void KernelManager::setSelectedKernel(const QString &newSelectedKernel)
 // install kernel from Arch Linux Archive
 QString KernelManager::installKernel(QString kernel)
 {
+    //QString kernel = m_selectedKernel;
+
     // 1. create URL and download kernel
     QString url = "https://archive.archlinux.org/packages/l/linux/" + m_selectedKernel;
     QString filePath = "/tmp/" + m_selectedKernel;
@@ -125,4 +127,38 @@ QString KernelManager::installKernel(QString kernel)
     }
 
     return "Kernel " + kernel + " was successfull installed";
+}
+
+QString KernelManager::uninstallKernel(QString kernel)
+{
+    //QString kernel = m_selectedKernel;
+    QString bashCommand;
+    QProcess uninstallProcess;
+
+    // check if arch or manjaro kernel
+    if (m_selectedKernel.contains("arch")) {
+        bashCommand = "pkexec pacman -Rns --noconfirm linux && pkexec update-grub"; // uninstall kernel and update grub boot loader
+    }
+    else if (m_selectedKernel.contains("manjaro")) {
+
+        // format kernel name
+        QString kernelName = m_selectedKernel.remove("-MANJARO");
+        bashCommand = "pkexec bash -c 'yes | mhwd-kernel -r " + kernelName + "'";
+    }
+
+    uninstallProcess.start("/bin/bash", QStringList() << "-c" << bashCommand);
+    uninstallProcess.waitForFinished(-1);
+
+    // log terminal output
+    QString uninstallOutput = uninstallProcess.readAllStandardOutput();
+    QString uninstallError = uninstallProcess.readAllStandardError();
+
+    qDebug() << "Output: " << uninstallOutput;
+    qDebug() << "Error: " << uninstallError;
+
+    if (uninstallProcess.exitCode()!= 0) {
+        return "Error while uninstalling kernel: " + uninstallError;
+    }
+
+    return "Kernel " + kernel + " was successfull uninstalled";
 }
