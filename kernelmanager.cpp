@@ -108,7 +108,7 @@ QString KernelManager::installKernel(QString kernel)
 
     // create bash command for pacman package manager
     // sudo doesn't work with QProcess -> use pkexec
-    QString bashCommand = "pkexec pacman -U --noconfirm " + filePath;
+    QString bashCommand = "pkexec pacman -U --noconfirm " + filePath + " && pkexec update-grub";
     //QString bashCommand = "pkexec bash -c 'yes | pacman -U " + filePath + "'";
 
 
@@ -137,7 +137,7 @@ QString KernelManager::uninstallKernel(QString kernel)
 
     // check if arch or manjaro kernel
     if (m_selectedKernel.contains("arch")) {
-        bashCommand = "pkexec pacman -Rns --noconfirm linux && pkexec update-grub"; // uninstall kernel and update grub boot loader
+        bashCommand = "pkexec pacman -Rns --noconfirm linux && pkexec update-grub"; // uninstall kernel and update grub bootloader
     }
     else if (m_selectedKernel.contains("manjaro")) {
 

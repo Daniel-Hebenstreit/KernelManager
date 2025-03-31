@@ -9,6 +9,8 @@ What works for now:
 - list all installed kernels (should work for all distros, but only tested on Manjaro)
 - list all available and supported kernels (Manjaro and Arch-based distros)
 - install kernels from Arch Linux Archive
+- uninstall Arch and Manajro kernels
+- update grub bootloader
 
 Sneak peak: 
 
